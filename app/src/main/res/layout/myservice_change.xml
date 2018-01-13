@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+        <Button
+            android:text="返回"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:id="@+id/myservice_change_back"/>
+        <TextView
+            android:textColor="@color/black"
+            android:text="修改服务"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/nature_head"/>
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/myservice_username_change"
+            android:gravity="center"
+            android:text="用户名"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+
+            android:text="发布时间"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/myservice_publishtime_change"
+            android:gravity="left"
+            android:text="5.25"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+
+            android:text="服务名称"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/myservice_change_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="代拿快递"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:background="@null"
+            android:inputType="text">
+
+        </EditText>
+    </LinearLayout>
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+
+            android:text="积分价格"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    <EditText
+        android:id="@+id/myservice_change_price"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:text="200积分"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:background="@null"
+        android:inputType="text">
+
+    </EditText>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="服务内容"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/myservice_change_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:text="ccss"
+            android:gravity="left"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/change_up_service"
+            android:text="保存提交"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

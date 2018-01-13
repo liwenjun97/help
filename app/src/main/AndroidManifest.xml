@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.example.lijun.help">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nature_head"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:icon, android:theme">
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+        <!---->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".activity.RegisterActivity">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!---->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".activity.ForgetPasActivity">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!---->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".activity.Changepass">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!---->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".activity.CreatService">
+            
+        </activity>
+        <activity android:name=".activity.ServiceActivity">
+
+        </activity>
+        <activity android:name=".activity.PersondataActivity">
+
+        </activity>
+
+        <activity android:name=".activity.Help_order_buy.HelpOrderBuyActivity">
+
+        </activity>
+
+        <activity android:name=".activity.Help_order_my.HelpOrderMyActivity">
+
+        </activity>
+
+        <activity android:name=".activity.Service_order_buy.ServiceOrderBuyAcitivity">
+
+        </activity>
+
+        <activity android:name=".activity.Service_order_my.ServiceOrderMyActivity">
+
+        </activity>
+
+        <activity android:name=".activity.Service_order_buy.Order_service_buy">
+
+        </activity>
+
+        <activity android:name=".activity.Service_order_my.Order_service_my">
+
+        </activity>
+
+        <activity android:name=".activity.HelpActivity">
+
+        </activity>
+
+        <activity android:name=".activity.CreatHelp">
+
+
+        </activity>
+
+        <activity android:name=".activity.Help_order_buy.Order_help_buy">
+
+
+        </activity>
+        <activity android:name=".activity.Help_order_my.Order_help_my">
+
+
+        </activity>
+        <activity android:name=".activity.MyserviceAcitivity">
+
+
+        </activity>
+        <activity android:name=".activity.MyhelpActivity">
+
+
+        </activity>
+
+        <activity android:name=".activity.MyserviceContent">
+
+
+        </activity>
+        <activity android:name=".activity.ChangeMyservice">
+
+
+        </activity>
+        <activity android:name=".activity.MyhelpContent">
+
+
+    </activity>
+        <activity android:name=".activity.ChangeMyhelp">
+
+
+        </activity>
+
+    </application>
+
+</manifest>

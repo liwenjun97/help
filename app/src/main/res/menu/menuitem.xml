@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/self">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="个人资料" />
+        <item
+            android:id="@+id/nav_myservice"
+            android:icon="@drawable/ic_organization"
+            android:title="我发布的服务"
+            />
+        <item
+            android:id="@+id/nav_myhelp"
+            android:icon="@drawable/ic_job"
+            android:title="我发布的求助"
+            />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/system">
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title="关于我们"/>
+            <item
+                android:id="@+id/nav_version"
+                android:icon="@drawable/ic_version"
+                android:title="当前版本"/>
+            <item
+                android:id="@+id/cancellation"
+                android:icon="@drawable/ic_cancellation"
+                android:title="注销"/>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_exit"
+                android:title="退出"/>
+    </group>
+</menu>
